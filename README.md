@@ -1,7 +1,7 @@
 # terraform-aws-vpc-dns
 
 ## Usage:
-```module "new-vpc" {
+`module "new-vpc" {
 	    source = "github.com/jmickle/terraform-aws-vpc-dns"
 	    name = "new-vpc"
 	    cidr = "100.1.0.0/16"
@@ -16,4 +16,4 @@
 	    environment = "production"
 	    internal_dns_zone = "new-vpc.local"
 
-    }```
+    }`
